@@ -33,6 +33,7 @@ Implemented using NextAuth.js.
 Users must sign in with Google to access protected pages.
 If not signed in, they're redirected to a login page with a styled Google Sign-In button.
 
+```
 ##Navigation
 A responsive Nav component with:
 Links to Home and Pizza Orders
@@ -40,6 +41,7 @@ Profile image
 Sign Out button
 Collapsible mobile menu using lucide-react icons
 
+```
 ##Orders Page
 
 Displays a table of pizza orders.
