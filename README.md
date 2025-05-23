@@ -18,23 +18,27 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Made by Mahak Porwal
 
-###Overview
+```
+## Overview
 A responsive Dashboard built with **Next.js** and **NextAuth.js**, featuring secure Google sign-in, dynamic filtering by order status, and a clean Tailwind-powered UI. It ensures only authenticated users can view and manage orders.
 
-##Tech Stack
+```
+
+## Tech Stack
 Framework: Next.js (App Router)
 Auth: Google Sign-In via NextAuth.js
 Styling: Tailwind CSS
 State Management: Local component state
 Hosting: Vercel
 
-##Authentication
+```
+## Authentication
 Implemented using NextAuth.js.
 Users must sign in with Google to access protected pages.
 If not signed in, they're redirected to a login page with a styled Google Sign-In button.
 
 ```
-##Navigation
+## Navigation
 A responsive Nav component with:
 Links to Home and Pizza Orders
 Profile image
@@ -52,3 +56,4 @@ Filtering by order status (e.g., Delivered, Cancelled)
 Clear message when no orders match the filter
 
 
+```
