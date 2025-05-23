@@ -20,8 +20,9 @@ Made by Mahak Porwal
 
 ```
 ## Overview
-A responsive Dashboard built with **Next.js** and **NextAuth.js**, featuring secure Google sign-in,
-dynamic filtering by order status, and a clean Tailwind-powered UI. It ensures only authenticated users can view and manage orders.
+A responsive Dashboard built with Next.js and NextAuth.js, featuring secure Google sign-in,
+dynamic filtering by order status, and a clean Tailwind-powered UI.
+It ensures only authenticated users can view and manage orders.
 
 ```
 
