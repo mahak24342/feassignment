@@ -20,30 +20,31 @@ Made by Mahak Porwal
 
 ```
 ## Overview
-A responsive Dashboard built with **Next.js** and **NextAuth.js**, featuring secure Google sign-in, dynamic filtering by order status, and a clean Tailwind-powered UI. It ensures only authenticated users can view and manage orders.
+A responsive Dashboard built with **Next.js** and **NextAuth.js**, featuring secure Google sign-in,
+dynamic filtering by order status, and a clean Tailwind-powered UI. It ensures only authenticated users can view and manage orders.
 
 ```
 
 ## Tech Stack
-Framework: Next.js (App Router)
-Auth: Google Sign-In via NextAuth.js
-Styling: Tailwind CSS
-State Management: Local component state
-Hosting: Vercel
+*Framework: Next.js (App Router)
+*Auth: Google Sign-In via NextAuth.js
+*Styling: Tailwind CSS
+*State Management: Local component state
+*Hosting: Vercel
 
 ```
 ## Authentication
-Implemented using NextAuth.js.
-Users must sign in with Google to access protected pages.
-If not signed in, they're redirected to a login page with a styled Google Sign-In button.
+*Implemented using NextAuth.js.
+*Users must sign in with Google to access protected pages.
+*If not signed in, they're redirected to a login page with a styled Google Sign-In button.
 
 ```
 ## Navigation
-A responsive Nav component with:
-Links to Home and Pizza Orders
-Profile image
-Sign Out button
-Collapsible mobile menu using lucide-react icons
+*A responsive Nav component with:
+*Links to Home and Pizza Orders
+*Profile image
+*Sign Out button
+*Collapsible mobile menu using lucide-react icons
 
 ```
 ##Orders Page
