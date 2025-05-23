@@ -16,21 +16,37 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Made by Mahak Porwal
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+##Overview
+A responsive Dashboard built with **Next.js** and **NextAuth.js**, featuring secure Google sign-in, dynamic filtering by order status, and a clean Tailwind-powered UI. It ensures only authenticated users can view and manage orders.
 
-## Learn More
+##Tech Stack
+Framework: Next.js (App Router)
+Auth: Google Sign-In via NextAuth.js
+Styling: Tailwind CSS
+State Management: Local component state
+Hosting: Vercel
 
-To learn more about Next.js, take a look at the following resources:
+##Authentication
+Implemented using NextAuth.js.
+Users must sign in with Google to access protected pages.
+If not signed in, they're redirected to a login page with a styled Google Sign-In button.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+##Navigation
+A responsive Nav component with:
+Links to Home and Pizza Orders
+Profile image
+Sign Out button
+Collapsible mobile menu using lucide-react icons
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+##Orders Page
 
-## Deploy on Vercel
+Displays a table of pizza orders.
+Features include:
+Responsive layout
+Status-based color-coded badges
+Filtering by order status (e.g., Delivered, Cancelled)
+Clear message when no orders match the filter
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
