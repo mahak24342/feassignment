@@ -48,7 +48,7 @@ It ensures only authenticated users can view and manage orders.
 *Collapsible mobile menu using lucide-react icons
 
 ```
-##Orders Page
+## Orders Page
 
 Displays a table of pizza orders.
 Features include:
